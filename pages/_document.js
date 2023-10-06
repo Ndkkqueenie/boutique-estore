@@ -8,8 +8,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="title" content="Headless Commerce example with Vercel" key="title" />
-          <meta name="description" content="An open source headless commerce example powered by Commerce.js and Vercel. Start your headless commerce application now!" />
+          <meta name="title" content="Glam Boutique" key="title" />
+          <meta name="description" content="Glam Boutique eStore, get your elegant piece from our 5 star boutique with worldwide shipping!" />
           <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" />
           <GoogleFonts href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" />
           {GA_TRACKING_ID && (

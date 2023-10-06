@@ -24,7 +24,7 @@ function IndexPage({ products }) {
   return (
     <>
       <Head>
-        <title>ChopChop</title>
+        <title>Glam Boutique</title>
       </Head>
       <div className="md:min-h-screen md:flex md:items-center">
         <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-10">
@@ -43,7 +43,7 @@ function IndexPage({ products }) {
               }}
               exit={{ opacity: 0, y: -50 }}
             >
-              <h1 className="font-serif italic text-xl md:text-3xl">Shop:</h1>
+              <h1 className="font-serif italic text-xl md:text-3xl">Shop Now </h1>
 
               <div className="pt-3">
                 <ProductList products={products} />

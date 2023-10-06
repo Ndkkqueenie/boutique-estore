@@ -6,8 +6,8 @@ function CartSummary() {
   const { openModal } = useModalDispatch();
 
   return (
-    <button className="appearance-none focus:outline-none" onClick={openModal}>
-      Shopping Bag ({total_unique_items})
+    <button className="appearance-none focus:outline-none" onClick={openModal} style={{left: "100px"}}>
+      Shopping Cart ({total_unique_items})
     </button>
   );
 }

@@ -8,10 +8,8 @@ function Footer() {
     <footer className="py-6 lg:py-12">
       <div className="container mx-auto px-3 md:px-4 lg:px-5 md:flex md:items-center space-y-6 md:space-y-0">
         <div className="w-full md:w-1/3">
-          <Link href="/">
-            <a title="Return to ChopChop">
-              <LogoSVG className="w-full md:w-auto md:h-8" />
-            </a>
+          <Link href="/" title="Return to ChopChop">
+            <LogoSVG className="w-full" />
           </Link>
         </div>
 
@@ -23,19 +21,19 @@ function Footer() {
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-1 text-faded-black hover:text-black transition-colors"
           >
-            <span>Powered by</span>
+            <span>Inspired by</span>
             <CommerceJsSVG className="h-4" />
           </a>
         </div>
 
         <div className="w-full md:w-1/3">
           <div className="md:text-right space-x-1">
-            <Link href="/">
-              <a className="text-black">Shop</a>
+            <Link href="/" className="text-black">
+              Shop
             </Link>
             ,
             <a
-              href="https://github.com/chec/commercejs-chopchop-demo"
+              href="https://github.com/Ndkkqueenie/boutique-estore"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black"
@@ -44,7 +42,7 @@ function Footer() {
             </a>
             ,
             <a
-              href="https://twitter.com/commercejs"
+              href="https://queendalin-dev.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black"
@@ -52,16 +50,16 @@ function Footer() {
               Contact
             </a>
             ,
-            <Link href="/">
-              <a className="text-black">Legal</a>
+            <Link href="/" className="text-black">
+              Legal
             </Link>
             ,
-            <Link href="/">
-              <a className="text-black">Privacy</a>
+            <Link href="/" className="text-black">
+              Privacy
             </Link>
-            ,<span>&copy; 2021</span>
+            ,<span>&copy; 2023</span>
             <p className="hidden md:block italic font-serif">
-              Fine tools for thoughtful cooks
+              Glamorous & Elegant Boutique
             </p>
           </div>
         </div>

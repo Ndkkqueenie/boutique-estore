@@ -9,25 +9,26 @@
     "seed": "chec-seed seeds"
   },
   "dependencies": {
-    "@chec/commerce.js": "2.2.0",
+    "@chec/commerce.js": "^2.8.0",
     "@hookform/error-message": "0.0.5",
-    "@stripe/react-stripe-js": "1.1.2",
-    "@stripe/stripe-js": "1.11.0",
+    "@stripe/react-stripe-js": "^1.4.0",
+    "@stripe/stripe-js": "^1.13.2",
     "autoprefixer": "10.0.4",
     "classcat": "4.1.0",
     "framer-motion": "2.9.4",
-    "next": "10.0.2",
+    "next": "^13.5.4",
     "next-google-fonts": "1.2.1",
-    "postcss": "8.1.14",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "6.11.5",
     "react-toastify": "6.1.0",
     "use-debounce": "^7.0.0"
   },
   "devDependencies": {
     "@chec/seeder": "^1.1.0",
-    "babel-plugin-inline-react-svg": "1.1.2",
-    "tailwindcss": "2.0.1"
+    "babel-plugin-inline-react-svg": "^2.0.2",
+    "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "tailwindcss": "^2.2.19"
   }
 }
